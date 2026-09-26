@@ -56,7 +56,7 @@ export const sponsorConfig: SponsorConfig = {
 			enabled: true,
 		},
 	],
-
+     /*
 	// 打赏者列表（可选）
 	sponsors: [
 		// 示例：已实名打赏者
@@ -76,4 +76,6 @@ export const sponsorConfig: SponsorConfig = {
 			date: "2025-10-01",
 		},
 	],
+
+	*/
 };
