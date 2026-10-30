@@ -83,6 +83,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	});
 
 	// 关于及其子菜单
+
 	links.push({
 		name: "关于",
 		url: "#",
@@ -236,11 +237,13 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		icon: "material-symbols:favorite",
 		pageKey: "sponsor",
 	},
+	/*
 	About: {
 		name: "关于我",
 		url: "/about/",
 		icon: "material-symbols:person",
 	},
+	*/
 };
 
 export const navBarConfig: NavBarConfig = getDynamicNavBarConfig();
