@@ -18,7 +18,7 @@ const pages = resolvePageToggles({
 	// ── 我的 (My) ──────────────────────────────────
 
 	// 动态页面开关
-	dynamic: true,
+	dynamic: false,
 	// 项目展示页开关
 	projects: false,
 	// 相册页面开关
@@ -30,14 +30,14 @@ const pages = resolvePageToggles({
 	// 番组计划页面开关
 	bangumi: false,
 	// VNDB页面开关
-	vndb: false,
+	vndb: true,
 	// MyAnimeList页面开关
 	mal: false,
 
 	// ── 关于 (About) ──────────────────────────────────
 
 	// 打赏页面开关
-	sponsor: true,
+	sponsor: false,
 });
 
 export const siteConfig: SiteConfig = {
@@ -45,7 +45,7 @@ export const siteConfig: SiteConfig = {
 	title: "pig810の小站",
 
 	// 站点副标题
-	subtitle: "Demo site",
+	subtitle: "",
 
 	// 站点 URL
 	site_url: "https://nqh.qzz.io",
