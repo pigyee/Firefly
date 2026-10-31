@@ -237,13 +237,11 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		icon: "material-symbols:favorite",
 		pageKey: "sponsor",
 	},
-	/*
 	About: {
 		name: "关于我",
 		url: "/about/",
 		icon: "material-symbols:person",
-	},
-	*/
+	},	
 };
 
 export const navBarConfig: NavBarConfig = getDynamicNavBarConfig();
