@@ -2,7 +2,7 @@
 title: pig810在用什么
 published: 2026-10-30
 description: 我目前在使用的电子设备，软件，操作系统等等
-tags: [电子设备，软件，Linux]
+tags: [电子设备,软件,Linux]
 draft: false
 ---
 
